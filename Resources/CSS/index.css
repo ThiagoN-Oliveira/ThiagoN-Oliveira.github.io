@@ -1,0 +1,43 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(../Images/earth.gif);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+p {
+    font-size: small;
+    font-style: italic;
+    text-align: end;
+    color: white;
+    text-decoration: underline;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 8s ease infinite;
+    font-size: 200px;
+    text-shadow: -20px 20px 20px black;
+
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 25%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
