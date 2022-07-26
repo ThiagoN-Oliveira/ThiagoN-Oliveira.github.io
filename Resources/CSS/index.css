@@ -25,7 +25,7 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 8s ease infinite;
-    font-size: 200px;
+    font-size: 150px;
     text-shadow: -20px 20px 20px black;
 
 }
